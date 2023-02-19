@@ -22,8 +22,11 @@ The code is organized as follows:
 - 06_rank_parkruns: a widget to choose parameters to find the fastest parkrun in a state
 
 ## Results
+| ![space-1.jpg](images/distribution_stpeters_parkrun.png) | 
+|:--:| 
+| *Visualizing parkrun statistics compared to state-wide or country-wide * |
 
-
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ## TODO
 deploy notebooks 05_visualize_distributions / 06_rank_parkruns using the free MyBinder.
