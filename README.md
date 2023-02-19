@@ -25,14 +25,14 @@ We rank parkruns within a state by the mean or median relative difference. We ca
 |:--:| 
 | Ranking parkruns from fast to slow per state |
 
-## Discussion
-In the 04_analyze, we work through developing the methodology. The gist is: many parkruns are fast and some are notoriously slow. The beauty of the chosen metric is that if you have set a PB at a particular slow course, if another course is considered 2% faster, you may be able to push your PB 2% lower by running at this particular fast course next!
+## Disclaimer
+We cannot say which parkrun ranks as the single fastest, and it is honestly not a particularly relevant question. Conditions may vary, and some parkruns will experience a cooler day with less breeze. If it is business as usual in the tropics, extremely hot and humid, the average time won't be fast, while in best conditions they may be. We pick up some of that signal, because in these conditions runners will usually set their PBs, but not all runners get the chance to run this particular parkrun in ideal circumstances.
 
-### Disclaimer
-We cannot say which parkrun ranks as the single fastest, and it is honestly not a particularly relevant question. Conditions may vary, and some parkruns will experience a cooler day with less breeze. If  it is business as usual in the tropics, extremely hot and humid, the average time won't be fast, while in best conditions they may be. We pick up some of that signal, because in these conditions runners will usually set their PBs, but not all runners get the chance to run this particular parkrun in ideal circumstances.
+## Discussion
+In the notebook 04_analyze.ipynb, we work through developing the methodology. The gist is: many parkruns are fast and some are notoriously slow. The beauty of the chosen metric is that if you have set a PB at a particular slow course, if another course is considered 2% faster, you may be able to push your PB 2% lower by running at this particular fast course next!
 
 ### Validation
-The Australian and world records that have been set over the last two years demonstrates that this analysis is not about the course that is ranked the fastest, but whether is course is ranked among the fastest. Couple that to an elite runner who has a good day in ideal conditions and you may be in for a surprise!
+The Australian and world records that have been set over the last two years demonstrates that this analysis is not about the course that is ranked the fastest, but whether the course is among the fastest. Couple such a course to an elite runner who has a good day in ideal conditions and you may be in for a surprise!
 
 Australian women setting world records:
 - 15:45 in Parramatta, NSW by Lauren Reid https://www.sportingnews.com/au/athletics/news/sydney-runner-lauren-reid-breaks-parkrun-world-record-at-parramatta/1932730uw7wlc19ozelhxk3mj2
