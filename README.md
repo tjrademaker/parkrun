@@ -14,22 +14,25 @@ This solves two problems at once:
 - it is challenging (and honestly overkill) to retrieve this mass of data
 - not every runner gives an all-out effort at every event. 
 
-We rank parkruns within a state by the mean or median relative difference. We can add additional constraints on how many events / attempts / effort level to modulate results.
+We rank parkruns within a state by the mean or median relative difference. We can add additional constraints on the minimum number of events / attempts / effort level to modulate results.
+
+In the notebook 04_analyze.ipynb, we work through developing the methodology. The gist is: many parkruns are fast and some are notoriously slow. The beauty of the chosen metric is that if you have set a PB at a particular slow course, if another course is considered 2% faster, you may be able to push your PB 2% lower by running at this particular fast course next!
 
 ## Results
 | ![](images/distribution_stpeters_parkrun.png) | 
 |:--:| 
 | Visualizing parkrun statistics compared to state-wide or country-wide |
 
+
+
 | ![](images/rank_parkruns_ACT.png) | 
 |:--:| 
 | Ranking parkruns from fast to slow per state |
 
-## Disclaimer
-We cannot say which parkrun ranks as the single fastest, and it is honestly not a particularly relevant question. Conditions may vary, and some parkruns will experience a cooler day with less breeze. If it is business as usual in the tropics, extremely hot and humid, the average time won't be fast, while in best conditions they may be. We pick up some of that signal, because in these conditions runners will usually set their PBs, but not all runners get the chance to run this particular parkrun in ideal circumstances.
 
-## Discussion
-In the notebook 04_analyze.ipynb, we work through developing the methodology. The gist is: many parkruns are fast and some are notoriously slow. The beauty of the chosen metric is that if you have set a PB at a particular slow course, if another course is considered 2% faster, you may be able to push your PB 2% lower by running at this particular fast course next!
+
+### Disclaimer
+We cannot say which parkrun ranks as the single fastest, and it is honestly not a particularly relevant question. Conditions may vary, and some parkruns will experience a cooler day with less breeze. If it is business as usual in the tropics, extremely hot and humid, the average time won't be fast, while in best conditions they may be. We pick up some of that signal, because in these conditions runners will usually set their PBs, but not all runners get the chance to run this particular parkrun in ideal circumstances.
 
 ### Validation
 The Australian and world records that have been set over the last two years demonstrates that this analysis is not about the course that is ranked the fastest, but whether the course is among the fastest. Couple such a course to an elite runner who has a good day in ideal conditions and you may be in for a surprise!
