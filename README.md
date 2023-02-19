@@ -23,7 +23,7 @@ In the notebook 04_analyze.ipynb, we work through developing the methodology. Th
 |:--:| 
 | Visualizing parkrun statistics compared to state-wide or country-wide |
 
-
+...
 
 | ![](images/rank_parkruns_ACT.png) | 
 |:--:| 
